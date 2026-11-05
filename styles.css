@@ -1,0 +1,48 @@
+:root {
+    --base: #191724;
+    --surface: #1f1d2e;
+    --overlay: #26233a;
+    --muted: #6e6a86;
+    --subtle: #908caa;
+    --text: #e0def4;
+    --love: #eb6f92;
+    --gold: #f6c177;
+    --rose: #ebbcba;
+    --pine: #31748f;
+    --foam: #9ccfd8;
+    --iris: #c4a7e7;
+    --highlightLow: #21202e;
+    --highlightMed: #403d52;
+    --highlightHigh: #524f67;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+    color: var(--text);
+}
+
+h2 {
+    font-family: 'Noto Sans', sans-serif;
+    color: var(--text);
+}
+
+h3 {
+    font-family: 'Noto Sans', sans-serif;
+    color: var(--text);
+}
+
+h4 {
+    font-family: 'Noto Sans', sans-serif;
+    color: var(--text);
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+    color: var(--text);
+}
+
+body {
+    background-color: var(--base);
+}
