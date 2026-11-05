@@ -5,12 +5,12 @@
     --muted: #6e6a86;
     --subtle: #908caa;
     --text: #e0def4;
-    --love: #eb6f92;
-    --gold: #f6c177;
-    --rose: #ebbcba;
-    --pine: #31748f;
-    --foam: #9ccfd8;
-    --iris: #c4a7e7;
+    --red: #eb6f92;
+    --yellow: #f6c177;
+    --orange: #ebbcba;
+    --blue: #31748f;
+    --cyan: #9ccfd8;
+    --magenta: #c4a7e7;
     --highlightLow: #21202e;
     --highlightMed: #403d52;
     --highlightHigh: #524f67;
@@ -43,6 +43,34 @@ p {
     color: var(--text);
 }
 
+ul {
+    font-family: 'Noto Sans', sans-serif;
+    color: var(--text);
+}
+
 body {
     background-color: var(--base);
+}
+
+main {
+ 
+}
+
+.directoryList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: var(--overlay);
+    display: flex;
+}
+
+.directoryList li a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: var(--text);
+}
+
+.directoryList li a:hover {
+    background-color: var(--magenta)
 }
