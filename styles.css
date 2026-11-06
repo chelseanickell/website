@@ -46,14 +46,29 @@ p {
 ul {
     font-family: 'Noto Sans', sans-serif;
     color: var(--text);
+    width: 700px;
 }
 
 body {
     background-color: var(--base);
 }
 
+header {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 main {
- 
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .directoryList {
@@ -73,4 +88,9 @@ main {
 
 .directoryList li a:hover {
     background-color: var(--magenta)
+}
+
+.blog-feed p a {
+    text-decoration: underline double var(--orange) 2px;
+    color: var(--orange);
 }
